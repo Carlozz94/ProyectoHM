@@ -19,7 +19,7 @@ export default function Contact(){
             <p>800 128 4567</p>
 
             <h2>O CONTACTANOS  VIA E-MAIL</h2>
-            <p>atencion.wm@email.com</p>
+            <p>atencion.wm@email.com</p>prueba
 
             <h2>ESTATUS DE COMPRA:</h2>
             <p>Para preguntas relacionadas con tu order contactanos via e-mail o
