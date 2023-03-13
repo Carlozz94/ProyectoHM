@@ -1,28 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Rubik:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+
 </head>
 <body>
-  <div id="root"></div>
+    
+    <header>
+        <a href="#" class="logo"> <img src="Images/Logo.png" alt="W&M" id="imgLogo"> Clothes </a>
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min
-.js"></script>
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/p
-opper.min.js"></script>
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.
-min.js"></script>
+        <ul class="navbar">
+            
+            <li><a href="#" class="active">Contacto</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#"><i class="ri-shopping-bag-line"></i></a></li>
+            <li>    
+                <div class="search">
+                    <input type="text" placeholder="Buscar" required>
+                    <div class="button-search">
+                        <i class="ri-search-line"></i>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="main">
+            <a href="#" class="user"><i class="ri-user-fill"></i>Sign in</a>
+            <a href="#">Register</a>
+            <div class="ri-menu-fill" id="menu-icon"></div>
+        </div>
+    </header>
 
-<script src="https://kit.fontawesome.com/d9a5ba028d.js" crossorigin="anonymous"></script>
+    <!-- JS link -->
+    <script src="./script1.js"></script>
 </body>
 </html>
